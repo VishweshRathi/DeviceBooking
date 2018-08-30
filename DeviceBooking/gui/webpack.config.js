@@ -1,5 +1,7 @@
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 var config = {
     entry: './src/main.jsx',
+    plugins: [ new UglifyJSPlugin() ],
     output: {
         path:'/',
         filename: 'index.min.js',
