@@ -1,0 +1,6 @@
+/DeviceBooking/gui/node_modules
+/DeviceBooking/api/node_modules
+/DeviceBooking/node_modules
+npm-debug.log
+.idea/
+.gitignore~
